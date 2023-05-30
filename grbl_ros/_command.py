@@ -80,7 +80,7 @@ class command(object):
             # set movement to Absolute coordinates
             self.ensureMovementMode(True)
             # try to get current position
-            self.send('?')
+            #self.send('?')
             # start homing procedure
             # TODO(flynneva): should this be done at startup?
             # should probably be configurable by user if they want to or not
